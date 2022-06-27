@@ -44,14 +44,3 @@ select
 	trials, cnt,
 	100* cnt/ sum(cnt) over() as perc
 from grouped;
-
-
-
-
-)
-
-
-
-
-
-from wordle_results;
